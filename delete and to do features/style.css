@@ -1,0 +1,17 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li {
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
