@@ -1,0 +1,25 @@
+
+
+#searchInput{
+    background-color: lightblue;
+    border: 7px solid black;
+    font-size: 30px;
+}
+
+#categoryFilter{
+    border: 4px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#sortFilter{
+    border: 4px solid black;
+    margin-left: rem;
+    margin-right: rem;
+}
+
+#resetBtn{
+    border: 4px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

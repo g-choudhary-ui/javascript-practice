@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product search</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+ <div class="container">
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+    />
+
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Mobile">Mobile</option>
+      <option value="Laptop">laptop</option>
+      <option value="Monitor">Monitor</option>
+      <option value="Accessories">Accessories</option>
+    </select>
+
+    <select id="sortFilter">
+        <option value="">Sort by</option>
+        <option value="low-high">Price: Low->High</option>
+        <option value="high-low">Price: High->Low</option>
+    </select>
+
+    <button id="resetBtn">Reset Filters</button>
+    <div id="productContainer"></div>
+
+ 
+ </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
